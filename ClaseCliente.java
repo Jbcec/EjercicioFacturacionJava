@@ -12,7 +12,7 @@ public class Cliente {
     //Declaro las variables requeridas y el Scanner para tomar datos desde teclado
     int nroCliente, nroDocumento, opcionDocumento, domicilioNro;
     /*Los limites fueron fijados a ojo para evitar, en lo posible, que se ingresen números
-    muy extensos en esas variables. El limite de DNI está en el primer número de nueve números,
+    muy extensos en esas variables. El limite de DNI está en el primer número de nueve dígitos,
     el del número de domicilio está basado en la altura máxima de Avenida Rivadavia.*/
     int limiteDni = 100000000, limiteDomicilio = 28000;  
     String domicilioCalle, tipoDocumento, condimpositiva;
